@@ -1,0 +1,44 @@
+# Ignore Visual Studio-specific files
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.filters
+*.dbmdl
+*.opendb
+
+# Ignore build outputs
+bin/
+obj/
+out/
+debug/
+release/
+
+# Ignore Entity Framework-related files
+*.mdf
+*.ldf
+Migrations/
+
+# Ignore sensitive files
+appsettings.json
+appsettings.Development.json
+secrets.json
+
+# Ignore Rider / JetBrains files
+.idea/
+*.sln.iml
+
+# Ignore logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore package dependencies
+node_modules/
+packages/
+.vscode/
+
+# Ignore generated files
+Generated/
